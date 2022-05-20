@@ -111,34 +111,7 @@ public class MainPlayerScript : MonoBehaviour
             {
                 PABS.ActivateAbility();
             }
-        }
-
-        //actions
-        /*if (Mathf.Abs(actionJoystick.Horizontal) > 0.2f || Mathf.Abs(actionJoystick.Vertical) > 0.2f)
-        {
-            if (Mathf.Abs(actionJoystick.Horizontal) > Mathf.Abs(actionJoystick.Vertical))
-            {
-                if (actionJoystick.Horizontal > 0)
-                {
-                    PABS.ActivateAbility();
-                }
-                else
-                {
-                    PMS.Jump();
-                }
-            }
-            else
-            {
-                if (actionJoystick.Vertical > 0)
-                {
-                    PAS.Attack();
-                }
-                else
-                {
-                    PIS.Intertact();
-                }
-            }
-        }*/
+        }     
 
 
 
