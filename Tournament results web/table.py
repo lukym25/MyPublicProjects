@@ -3,11 +3,6 @@
 import csv
 import sys
 
-def sum_file(inp, results):
-    for line in inp:
-        (key, number) = line.split(maxsplit=1)
-        results[key] = results.get(key, 0) + int(number)
-
 def main():
     totals = {}
     reader = csv.DictReader(sys.stdin)
